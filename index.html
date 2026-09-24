@@ -1,615 +1,408 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Harshitha B. — AI/ML Engineer, Computer Vision and AI Research portfolio.">
+  <meta name="theme-color" content="#08080c">
+  <title>Harshitha B. | AI/ML Engineer & Researcher</title>
 
-    <title>Harshitha Bhaskaran | AI/ML Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-    <meta name="description"
-          content="Harshitha Bhaskaran — M.Tech CSE AI & ML graduate, AI/ML Engineer and researcher.">
-
-    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+  <div class="cursor-glow" aria-hidden="true"></div>
+  <div class="page-grid" aria-hidden="true"></div>
 
-<!-- ================= NAVBAR ================= -->
+  <header class="navbar" id="top">
+    <a class="brand" href="#home" aria-label="Harshitha B. home">
+      <span>HB</span>
+      <strong>HARSHITHA<span>.</span></strong>
+    </a>
 
-<header class="navbar">
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="site-nav">
+      <span></span><span></span>
+    </button>
 
-    <div class="logo">
-        HB<span>.</span>
-    </div>
-
-    <nav>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#research">Research</a>
-        <a href="#experience">Experience</a>
-        <a href="#contact">Contact</a>
+    <nav class="nav-links" id="site-nav">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#research">Research</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#publications">Publications</a>
+      <a href="#contact">Contact</a>
     </nav>
+  </header>
 
-</header>
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="hero-orb orb-one" aria-hidden="true"></div>
+      <div class="hero-orb orb-two" aria-hidden="true"></div>
 
+      <div class="hero-inner">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span class="pulse"></span> AI / ML ENGINEER · COMPUTER VISION · RESEARCH</p>
+          <h1>Harshitha<br><em>B.</em></h1>
+          <h2>Building intelligent systems with <span>machine learning</span>, computer vision and generative AI.</h2>
+          <p class="hero-description">
+            M.Tech CSE graduate specializing in Artificial Intelligence & Machine Learning, with research work spanning medical imaging, cardiac function analysis, synthetic-media detection and structured LLM generation.
+          </p>
 
-<!-- ================= HERO ================= -->
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#research">Explore my work <span>↗</span></a>
+            <a class="btn btn-ghost" href="assets/Harshitha_AIML.pdf" download>Download Resume <span>↓</span></a>
+          </div>
 
-<!-- ================= HERO ================= -->
+          <div class="social-row">
+            <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn ↗</a>
+            <a href="https://github.com/Harshithabhaskaran" target="_blank" rel="noopener">GitHub ↗</a>
+            <a href="https://www.researchgate.net/profile/Harshitha-Bhaskaran" target="_blank" rel="noopener">ResearchGate ↗</a>
+            <a href="mailto:harshithabhaskaran1@gmail.com">Email ↗</a>
+          </div>
+        </div>
 
-<section class="hero">
+        <div class="hero-visual reveal reveal-delay" aria-hidden="true">
+          <div class="visual-ring ring-one"></div>
+          <div class="visual-ring ring-two"></div>
+          <div class="visual-core">
+            <div class="core-node"></div>
+            <div class="core-line line-a"></div>
+            <div class="core-line line-b"></div>
+            <div class="core-line line-c"></div>
+            <span class="core-label">AI</span>
+          </div>
+          <div class="data-chip chip-a">COMPUTER VISION</div>
+          <div class="data-chip chip-b">EXPLAINABLE AI</div>
+          <div class="data-chip chip-c">GENERATIVE AI</div>
+          <div class="data-chip chip-d">DEEP LEARNING</div>
+        </div>
+      </div>
 
-    <div class="hero-content">
+      <div class="hero-bottom">
+        <span>SCROLL TO EXPLORE</span>
+        <div class="scroll-line"><i></i></div>
+        <span>01 / 08</span>
+      </div>
+    </section>
 
-        <p class="eyebrow">
-            AI / ML ENGINEER • RESEARCHER
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="section-label reveal">01 — ABOUT</div>
+      <div class="about-layout">
+        <div class="section-intro reveal">
+          <p class="kicker">RESEARCH-DRIVEN AI</p>
+          <h2>From data<br>to <span>intelligent systems.</span></h2>
+        </div>
+
+        <div class="about-content reveal">
+          <p class="lead">
+            I develop machine learning and deep learning systems that connect research ideas with practical applications. My work focuses on computer vision, explainable AI, medical imaging, synthetic-media detection and generative AI.
+          </p>
+          <p>
+            My M.Tech work combines end-to-end echocardiography analysis with quantitative cardiac measurements and structured language-model generation. I also work across multimodal deepfake detection and video classification.
+          </p>
+
+          <div class="stats-grid">
+            <div class="stat-card">
+              <strong>8.92</strong>
+              <span>M.Tech CGPA / 10</span>
+            </div>
+            <div class="stat-card">
+              <strong>0.94</strong>
+              <span>EchoNet Dice</span>
+            </div>
+            <div class="stat-card">
+              <strong>0.613</strong>
+              <span>LVEF R²</span>
+            </div>
+            <div class="stat-card">
+              <strong>02</strong>
+              <span>Research Publications</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section section-dark" id="skills">
+      <div class="section-label reveal">02 — TECHNICAL STACK</div>
+      <div class="skills-header reveal">
+        <div>
+          <p class="kicker">TOOLS I BUILD WITH</p>
+          <h2>Technical <span>toolkit.</span></h2>
+        </div>
+        <p>Focused on practical ML development, deep learning experimentation, computer vision and generative AI.</p>
+      </div>
+
+      <div class="skills-grid">
+        <article class="skill-card reveal">
+          <span class="skill-index">01</span>
+          <h3>Programming & ML</h3>
+          <div class="tag-list">
+            <span>Python</span><span>SQL</span><span>Scikit-learn</span><span>Random Forest</span><span>XGBoost</span><span>KNN</span><span>SVM</span><span>K-Means</span>
+          </div>
+        </article>
+
+        <article class="skill-card reveal reveal-delay">
+          <span class="skill-index">02</span>
+          <h3>Deep Learning</h3>
+          <div class="tag-list">
+            <span>PyTorch</span><span>TensorFlow</span><span>Keras</span><span>U-Net</span><span>VGG16</span><span>ResNeXt</span><span>CNN</span><span>RNN</span><span>DNN</span>
+          </div>
+        </article>
+
+        <article class="skill-card reveal">
+          <span class="skill-index">03</span>
+          <h3>Computer Vision</h3>
+          <div class="tag-list">
+            <span>OpenCV</span><span>MTCNN</span><span>Haar Cascade</span><span>FFmpeg</span><span>Video Analysis</span><span>Medical Imaging</span>
+          </div>
+        </article>
+
+        <article class="skill-card reveal reveal-delay">
+          <span class="skill-index">04</span>
+          <h3>NLP & Generative AI</h3>
+          <div class="tag-list">
+            <span>Hugging Face</span><span>T5-small</span><span>Mistral-7B</span><span>Prompt Engineering</span><span>Structured LLM Generation</span>
+          </div>
+        </article>
+
+        <article class="skill-card reveal">
+          <span class="skill-index">05</span>
+          <h3>Data & Databases</h3>
+          <div class="tag-list">
+            <span>NumPy</span><span>MySQL</span><span>SQLite</span><span>EDA</span><span>Data Analysis</span>
+          </div>
+        </article>
+
+        <article class="skill-card reveal reveal-delay">
+          <span class="skill-index">06</span>
+          <h3>Cloud & Tools</h3>
+          <div class="tag-list">
+            <span>AWS</span><span>GitHub</span><span>VS Code</span><span>Jupyter</span><span>Kaggle</span><span>Flask</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- FEATURED RESEARCH -->
+    <section class="section featured-section" id="research">
+      <div class="section-label reveal">03 — RESEARCH / THESIS</div>
+
+      <article class="research-feature reveal">
+        <div class="research-top">
+          <div>
+            <p class="kicker">FEATURED RESEARCH</p>
+            <h2>Explainable AI for<br><span>Echocardiography</span></h2>
+          </div>
+          <span class="research-mark">01</span>
+        </div>
+
+        <p class="research-summary">
+          An end-to-end deep learning pipeline for left-ventricular segmentation and LVEF estimation from apical four-chamber echocardiography videos, with structured clinical report generation using Mistral-7B.
         </p>
 
-        <h1>
-            Hi, I'm <span>Harshitha</span> 👋
-        </h1>
+        <div class="pipeline">
+          <div class="pipeline-step"><small>01</small><strong>Echo Video</strong><span>Apical 4-chamber</span></div>
+          <i>→</i>
+          <div class="pipeline-step"><small>02</small><strong>LV Segmentation</strong><span>U-Net</span></div>
+          <i>→</i>
+          <div class="pipeline-step"><small>03</small><strong>ED / ES</strong><span>Cavity dynamics</span></div>
+          <i>→</i>
+          <div class="pipeline-step"><small>04</small><strong>LVEF</strong><span>Quantitative metrics</span></div>
+          <i>→</i>
+          <div class="pipeline-step"><small>05</small><strong>Structured Report</strong><span>Mistral-7B</span></div>
+        </div>
 
-        <h2>
-            M.Tech CSE — Artificial Intelligence & Machine Learning
-        </h2>
+        <div class="research-bottom">
+          <div class="metric">
+            <strong>0.94</strong><span>Dice</span>
+          </div>
+          <div class="metric">
+            <strong>0.86</strong><span>IoU</span>
+          </div>
+          <div class="metric">
+            <strong>6.16</strong><span>EF MAE (pp)</span>
+          </div>
+          <div class="metric">
+            <strong>0.613</strong><span>R²</span>
+          </div>
+          <div class="research-note">
+            <span>TECHNOLOGY</span>
+            <p>Python · PyTorch · U-Net · Mistral-7B · CAMUS</p>
+          </div>
+        </div>
+      </article>
+    </section>
 
-        <p class="hero-description">
-            I build intelligent systems across Explainable AI,
-            Computer Vision, Deep Learning and Generative AI,
-            with a research focus on medical imaging and AI-generated media.
+    <!-- PROJECTS -->
+    <section class="section section-dark" id="projects">
+      <div class="section-label reveal">04 — SELECTED PROJECTS</div>
+      <div class="projects-heading reveal">
+        <div>
+          <p class="kicker">APPLIED AI</p>
+          <h2>Built to <span>solve.</span></h2>
+        </div>
+        <p>Selected work across synthetic-media detection, multimodal AI and data visualization.</p>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card project-large reveal">
+          <div class="project-meta"><span>01</span><span>COMPUTER VISION · DEEP LEARNING</span></div>
+          <h3>Authentic vs<br><span>AI-Generated Video</span></h3>
+          <p>Deep learning pipeline for authentic vs AI-generated video classification using frame-level visual features and temporal sequence analysis.</p>
+          <div class="project-flow">
+            <span>FACE CROP</span><b>→</b><span>150 FRAMES</span><b>→</b><span>ResNeXt</span><b>→</b><span>RNN / DNN</span>
+          </div>
+          <div class="project-footer">
+            <div class="tag-list"><span>ResNeXt</span><span>OpenCV</span><span>RNN</span><span>DNN</span></div>
+            <a href="https://www.researchgate.net/publication/396483896_A_Robust_Deep_Learning_approach_for_Discriminating_between_Authentic_and_AI-Generated_Videos" target="_blank" rel="noopener">ResearchGate ↗</a>
+          </div>
+        </article>
+
+        <article class="project-card reveal reveal-delay">
+          <div class="project-meta"><span>02</span><span>MULTIMODAL AI</span></div>
+          <h3>Audio-Visual<br><span>Deepfake Detection</span></h3>
+          <p>Multimodal pipeline combining face and voice analysis to distinguish authentic and AI-generated media.</p>
+          <div class="tag-list"><span>VGG16</span><span>FFmpeg</span><span>Random Forest</span><span>DFDC</span></div>
+          <a class="project-arrow" href="https://ieeexplore.ieee.org/document/11383505/" target="_blank" rel="noopener">IEEE Xplore <span>↗</span></a>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-meta"><span>03</span><span>DATA ANALYTICS</span></div>
+          <h3>Power BI<br><span>Sales Visualization</span></h3>
+          <p>Interactive dashboard for revenue, margin, product, regional, customer and salesperson analysis.</p>
+          <div class="dashboard-mini">
+            <img src="assets/powerbi-dashboard.png" alt="Power BI sales visualization dashboard">
+          </div>
+          <a class="project-arrow" href="#contact">Dashboard Preview <span>↗</span></a>
+        </article>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="section" id="experience">
+      <div class="section-label reveal">05 — EXPERIENCE</div>
+
+      <article class="experience-feature reveal">
+        <div class="experience-head">
+          <div>
+            <p class="kicker">AI / ML INTERNSHIP · REMOTE</p>
+            <h2>Elevate <span>Labs</span></h2>
+            <p class="experience-date">Aug 2025 — Sep 2025</p>
+          </div>
+          <div class="experience-recognition">BEST<br>PERFORMER</div>
+        </div>
+
+        <p class="experience-summary">
+          Hands-on AI/ML work spanning exploratory data analysis, regression, classification, ensemble learning, KNN, SVM and K-Means clustering using Python and Scikit-learn.
         </p>
 
-        <div class="hero-buttons">
-
-            <a href="#projects" class="btn primary">
-                View Projects
-            </a>
-
-            <a href="#contact" class="btn secondary">
-                Let's Connect
-            </a>
-
+        <div class="experience-grid">
+          <div class="experience-item">
+            <span>01</span>
+            <h3>AI Text Summarization</h3>
+            <p>Built a text summarization web application using Hugging Face Transformers, T5-small and Flask, including summary-length statistics.</p>
+            <a href="https://github.com/Harshithabhaskaran/AI-Summarizer" target="_blank" rel="noopener">View GitHub ↗</a>
+          </div>
+          <div class="experience-item">
+            <span>02</span>
+            <h3>Flask + SQLite CRUD</h3>
+            <p>Developed a CRUD web application with Flask, SQLite and Jinja templates for user creation, retrieval, updating and deletion.</p>
+            <a href="https://github.com/Harshithabhaskaran/CRUD" target="_blank" rel="noopener">View GitHub ↗</a>
+          </div>
+          <div class="experience-item">
+            <span>03</span>
+            <h3>Machine Learning Tasks</h3>
+            <p>Worked through supervised and unsupervised learning workflows including regression, classification, ensemble methods, KNN, SVM and K-Means.</p>
+          </div>
         </div>
+      </article>
+    </section>
 
-        <div class="social-links">
+    <!-- PUBLICATIONS -->
+    <section class="section section-dark" id="publications">
+      <div class="section-label reveal">06 — PUBLICATIONS</div>
+      <div class="publications-heading reveal">
+        <p class="kicker">RESEARCH OUTPUT</p>
+        <h2>Published <span>work.</span></h2>
+      </div>
 
-            <a href="https://github.com/Harshithabhaskaran"
-               target="_blank">
-                GitHub
-            </a>
+      <div class="publication-list">
+        <article class="publication reveal">
+          <div class="pub-year">2025</div>
+          <div class="pub-content">
+            <p class="pub-venue">IJRDES · MARCH 2025</p>
+            <h3>A Robust Deep Learning Approach for Discriminating Between Authentic and AI-Generated Videos</h3>
+            <p>Deep learning approach for distinguishing authentic video content from AI-generated videos.</p>
+            <div class="pub-links">
+              <a href="https://www.researchgate.net/publication/396483896_A_Robust_Deep_Learning_approach_for_Discriminating_between_Authentic_and_AI-Generated_Videos" target="_blank" rel="noopener">ResearchGate ↗</a>
+              <a href="https://doi.org/10.63328/IJRDES-V7RI2P2" target="_blank" rel="noopener">DOI ↗</a>
+            </div>
+          </div>
+        </article>
 
-            <a href="https://www.linkedin.com/in/harshitha-bhaskaran/"
-               target="_blank">
-                LinkedIn
-            </a>
+        <article class="publication reveal">
+          <div class="pub-year">2025</div>
+          <div class="pub-content">
+            <p class="pub-venue">ICECA 2025 · IEEE</p>
+            <h3>Deep Learning for Audio-Visual Deepfake Detection: A Study on Face and Voice Synthesis</h3>
+            <p>Multimodal deepfake detection study combining visual and audio information for face and voice synthesis analysis.</p>
+            <div class="pub-links">
+              <a href="https://ieeexplore.ieee.org/document/11383505/" target="_blank" rel="noopener">IEEE Xplore ↗</a>
+              <a href="https://doi.org/10.1109/ICECA66444.2025.11383505" target="_blank" rel="noopener">DOI ↗</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
 
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- ================= ABOUT ================= -->
-
-<!-- ================= ABOUT ================= -->
-
-<section id="about" class="section">
-
-    <div class="section-heading">
-        <p>01</p>
-        <h2>About Me</h2>
-    </div>
-
-    <div class="about-grid">
-
+    <!-- EDUCATION -->
+    <section class="section education-section">
+      <div class="section-label reveal">07 — EDUCATION</div>
+      <div class="education-card reveal">
+        <div class="edu-year">2024 — 2026</div>
         <div>
-
-            <h3>
-                Research-driven AI/ML engineer building
-                practical intelligent systems.
-            </h3>
-
-            <p>
-                I'm an M.Tech CSE graduate specializing in
-                Artificial Intelligence and Machine Learning
-                from VIT Vellore.
-            </p>
-
-            <p>
-                My research experience focuses on Explainable AI
-                for echocardiography, medical image segmentation,
-                cardiac function analysis and clinical report generation.
-            </p>
-
-            <p>
-                I also work with computer vision, deep learning,
-                NLP and Generative AI to develop practical
-                machine learning applications.
-            </p>
-
+          <p class="kicker">VELLORE INSTITUTE OF TECHNOLOGY · VELLORE</p>
+          <h2>M.Tech — Computer Science & Engineering</h2>
+          <p>Artificial Intelligence & Machine Learning</p>
         </div>
-
-        <div class="stats">
-
-            <div class="stat-card">
-                <strong>8.92</strong>
-                <span>M.Tech CGPA</span>
-            </div>
-
-            <div class="stat-card">
-                <strong>0.94</strong>
-                <span>EchoNet Dice Score</span>
-            </div>
-
-            <div class="stat-card">
-                <strong>6.16</strong>
-                <span>EF MAE</span>
-            </div>
-
-            <div class="stat-card">
-                <strong>2+</strong>
-                <span>Research Publications</span>
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-<!-- ================= SKILLS ================= -->
-
-<section id="skills" class="section dark-section">
-
-    <div class="section-heading">
-        <p>02</p>
-        <h2>Skills</h2>
-    </div>
-
-    <div class="skills-grid">
-
-        <div class="skill-category">
-
-            <h3>Programming</h3>
-
-            <div class="tags">
-                <span>Python</span>
-                <span>SQL</span>
-                <span>C/C++</span>
-            </div>
-
-        </div>
-
-
-        <div class="skill-category">
-
-            <h3>AI / Machine Learning</h3>
-
-            <div class="tags">
-                <span>TensorFlow</span>
-                <span>Deep Learning</span>
-                <span>Computer Vision</span>
-                <span>CNN</span>
-                <span>U-Net</span>
-                <span>ConvLSTM</span>
-            </div>
-
-        </div>
-
-
-        <div class="skill-category">
-
-            <h3>Data</h3>
-
-            <div class="tags">
-                <span>Pandas</span>
-                <span>NumPy</span>
-                <span>Power BI</span>
-                <span>EDA</span>
-                <span>Matplotlib</span>
-            </div>
-
-        </div>
-
-
-        <div class="skill-category">
-
-            <h3>Tools & Technologies</h3>
-
-            <div class="tags">
-                <span>OpenCV</span>
-                <span>Git</span>
-                <span>GitHub</span>
-                <span>AWS</span>
-                <span>FFmpeg</span>
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- ================= PROJECTS ================= -->
-
-<section id="projects" class="section">
-
-    <div class="section-heading">
-        <p>03</p>
-        <h2>Featured Projects</h2>
-    </div>
-
-
-    <div class="projects-grid">
-
-
-        <!-- PROJECT 1 -->
-
-        <article class="project-card featured">
-
-            <div class="project-number">
-                01
-            </div>
-
-            <p class="project-type">
-                MEDICAL AI • EXPLAINABLE AI
-            </p>
-
-            <h3>
-                Explainable AI for Cardiac Event Detection
-                and Analysis in Echocardiography
-            </h3>
-
-            <p>
-                An AI pipeline for analysing echocardiography videos,
-                segmenting the left ventricle, estimating cardiac
-                function and generating explainable AI insights.
-            </p>
-
-            <div class="project-tech">
-                <span>U-Net</span>
-                <span>ConvLSTM</span>
-                <span>Grad-CAM</span>
-                <span>Mistral-7B</span>
-                <span>Python</span>
-            </div>
-
-            <a href="#" class="project-link">
-                Project Details →
-            </a>
-
-        </article>
-
-
-        <!-- PROJECT 2 -->
-
-        <article class="project-card">
-
-            <div class="project-number">
-                02
-            </div>
-
-            <p class="project-type">
-                COMPUTER VISION • DEEP LEARNING
-            </p>
-
-            <h3>
-                AI-Generated Video Detection
-            </h3>
-
-            <p>
-                Deep learning based approach for discriminating
-                authentic videos from AI-generated videos.
-            </p>
-
-            <div class="project-tech">
-                <span>ResNet50</span>
-                <span>DNN</span>
-                <span>TensorFlow</span>
-                <span>OpenCV</span>
-            </div>
-
-            <a href="#" class="project-link">
-                Project Details →
-            </a>
-
-        </article>
-
-
-        <!-- PROJECT 3 -->
-
-        <article class="project-card">
-
-            <div class="project-number">
-                03
-            </div>
-
-            <p class="project-type">
-                DEEPFAKE • AUDIO-VISUAL AI
-            </p>
-
-            <h3>
-                Audio-Visual Deepfake Detection
-            </h3>
-
-            <p>
-                A multimodal deep learning study combining face and
-                voice information for deepfake detection.
-            </p>
-
-            <div class="project-tech">
-                <span>VGG</span>
-                <span>MTCNN</span>
-                <span>FFmpeg</span>
-                <span>Deep Learning</span>
-            </div>
-
-            <a href="#" class="project-link">
-                Project Details →
-            </a>
-
-        </article>
-
-
-        <!-- PROJECT 4 -->
-
-        <article class="project-card">
-
-            <div class="project-number">
-                04
-            </div>
-
-            <p class="project-type">
-                DATA ANALYTICS
-            </p>
-
-            <h3>
-                Data Analytics & Visualization
-            </h3>
-
-            <p>
-                Analytics projects using Python, SQL and Power BI
-                to transform data into useful insights.
-            </p>
-
-            <div class="project-tech">
-                <span>Python</span>
-                <span>SQL</span>
-                <span>Power BI</span>
-                <span>Pandas</span>
-            </div>
-
-            <a href="#" class="project-link">
-                Project Details →
-            </a>
-
-        </article>
-
-    </div>
-
-</section>
-
-
-<!-- ================= RESEARCH ================= -->
-
-<section id="research" class="section dark-section">
-
-    <div class="section-heading">
-        <p>04</p>
-        <h2>Research & Publications</h2>
-    </div>
-
-
-    <div class="research-list">
-
-        <article class="research-card">
-
-            <span class="research-year">
-                2025
-            </span>
-
-            <h3>
-                A Robust Deep Learning Approach for
-                Discriminating Between Authentic and
-                AI-Generated Videos
-            </h3>
-
-            <p>
-                Research on deep learning based detection of
-                AI-generated video content.
-            </p>
-
-            <a href="https://www.researchgate.net/profile/Harshitha-Bhaskaran"
-               target="_blank">
-                View ResearchGate →
-            </a>
-
-        </article>
-
-
-        <article class="research-card">
-
-            <span class="research-year">
-                2025
-            </span>
-
-            <h3>
-                Deep Learning for Audio-Visual Deepfake Detection:
-                A Study on Face and Voice Synthesis
-            </h3>
-
-            <p>
-                A study combining visual and audio information
-                for multimodal deepfake detection.
-            </p>
-
-            <a href="https://doi.org/10.1109/ICECA66444.2025.11383505"
-               target="_blank">
-                View Publication →
-            </a>
-
-        </article>
-
-    </div>
-
-</section>
-
-
-<!-- ================= EXPERIENCE ================= -->
-
-<section id="experience" class="section">
-
-    <div class="section-heading">
-        <p>05</p>
-        <h2>Experience</h2>
-    </div>
-
-
-    <div class="experience-card">
-
-        <div>
-
-            <p class="project-type">
-                AI / ML INTERNSHIP
-            </p>
-
-            <h3>
-                AI/ML Intern — Elevate Labs
-            </h3>
-
-            <p>
-                Worked on machine learning applications involving
-                data preprocessing, feature engineering and
-                supervised and unsupervised learning.
-            </p>
-
-        </div>
-
-        <span class="experience-badge">
-            Best Performer
-        </span>
-
-    </div>
-
-</section>
-
-
-<!-- ================= EDUCATION ================= -->
-
-<section class="section dark-section">
-
-    <div class="section-heading">
-        <p>06</p>
-        <h2>Education</h2>
-    </div>
-
-
-    <div class="education-grid">
-
-        <div class="education-card">
-
-            <span>2024 — 2026</span>
-
-            <h3>
-                M.Tech — Computer Science & Engineering
-            </h3>
-
-            <p>
-                Artificial Intelligence & Machine Learning
-            </p>
-
-            <strong>
-                VIT Vellore
-            </strong>
-
-            <b>
-                CGPA: 8.92
-            </b>
-
-        </div>
-
-
-        <div class="education-card">
-
-            <span>2020 — 2024</span>
-
-            <h3>
-                B.Tech — Information Technology
-            </h3>
-
-            <p>
-                Kamaraj College of Engineering
-                and Technology, Virudhunagar
-            </p>
-
-            <b>
-                CGPA: 8.75
-            </b>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- ================= CONTACT ================= -->
-
-<section id="contact" class="contact-section">
-
-    <p class="eyebrow">
-        LET'S CONNECT
-    </p>
-
-    <h2>
-        Have an opportunity or
-        an interesting AI problem?
-    </h2>
-
-    <p>
-        I'm open to opportunities in AI/ML,
-        Data Analytics and Software Engineering.
-    </p>
-
-    <div class="contact-buttons">
-
-        <a href="https://www.linkedin.com/in/harshitha-bhaskaran/"
-           target="_blank"
-           class="btn primary">
-            LinkedIn
+        <strong class="edu-score">8.92<small>/10</small></strong>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact-section" id="contact">
+      <div class="contact-glow" aria-hidden="true"></div>
+      <div class="contact-inner reveal">
+        <p class="kicker">08 — CONTACT</p>
+        <h2>Let's build something<br><span>intelligent.</span></h2>
+        <p>Open to AI/ML, computer vision, data and research opportunities.</p>
+        <a class="email-link" href="mailto:harshithabhaskaran1@gmail.com">
+          <span>harshithabhaskaran1@gmail.com</span><b>↗</b>
         </a>
+        <div class="contact-socials">
+          <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://github.com/Harshithabhaskaran" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://www.researchgate.net/profile/Harshitha-Bhaskaran" target="_blank" rel="noopener">ResearchGate</a>
+        </div>
+      </div>
+    </section>
+  </main>
 
-        <a href="https://github.com/Harshithabhaskaran"
-           target="_blank"
-           class="btn secondary">
-            GitHub
-        </a>
+  <footer>
+    <span>HARSHITHA B.</span>
+    <span>AI / ML · COMPUTER VISION · RESEARCH</span>
+    <span id="year"></span>
+  </footer>
 
-    </div>
-
-</section>
-
-
-<!-- ================= FOOTER ================= -->
-
-<footer>
-
-    <p>
-        © 2026 Harshitha Bhaskaran
-    </p>
-
-    <p>
-        Built with curiosity & code.
-    </p>
-
-</footer>
-
-
-<script src="script.js"></script>
-
+  <script src="script.js"></script>
 </body>
 </html>
