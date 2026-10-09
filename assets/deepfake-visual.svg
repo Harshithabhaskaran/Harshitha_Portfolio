@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560">
+<defs><linearGradient id="bg" x1="0" x2="1"><stop stop-color="#0b0812"/><stop offset="1" stop-color="#24113d"/></linearGradient><filter id="g"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<rect width="900" height="560" rx="28" fill="url(#bg)"/>
+<text x="55" y="62" fill="#c4b5fd" font-family="Arial" font-size="18" letter-spacing="4">DEEPFAKE DETECTION • VIDEO + AUDIO</text>
+<rect x="55" y="95" width="440" height="360" rx="24" fill="#12101a" stroke="#4c1d95"/>
+<ellipse cx="275" cy="260" rx="102" ry="132" fill="#201a2b" stroke="#a855f7" stroke-width="3"/>
+<path d="M192 230 Q275 160 358 230 M210 320 Q275 370 340 320" fill="none" stroke="#d8b4fe" stroke-width="4" opacity=".75"/>
+<rect x="190" y="170" width="170" height="180" fill="none" stroke="#a855f7" stroke-width="3" stroke-dasharray="10 8" filter="url(#g)"/>
+<circle cx="235" cy="250" r="10" fill="#fff"/><circle cx="315" cy="250" r="10" fill="#fff"/>
+<text x="85" y="425" fill="#a78bfa" font-family="Arial" font-size="15">FACE DETECTION • MTCNN / HAAR CASCADE</text>
+<g transform="translate(530 100)"><rect width="315" height="105" rx="20" fill="#15121d" stroke="#332044"/><text x="22" y="32" fill="#a78bfa" font-family="Arial" font-size="13" letter-spacing="2">VIDEO</text><text x="22" y="68" fill="#fff" font-family="Arial" font-size="18">VGG16 → FFmpeg → features</text></g>
+<g transform="translate(530 225)"><rect width="315" height="105" rx="20" fill="#15121d" stroke="#332044"/><text x="22" y="32" fill="#a78bfa" font-family="Arial" font-size="13" letter-spacing="2">AUDIO</text><text x="22" y="68" fill="#fff" font-family="Arial" font-size="18">MFCC-style signal → XGBoost</text></g>
+<g transform="translate(530 350)"><rect width="315" height="105" rx="20" fill="#15121d" stroke="#332044"/><path d="M22 65 L42 65 55 40 70 83 88 55 105 70 125 70 145 45 165 72 185 58 205 75 225 60 245 60 265 48 290 70" fill="none" stroke="#a855f7" stroke-width="3" filter="url(#g)"/><text x="22" y="30" fill="#a78bfa" font-family="Arial" font-size="13" letter-spacing="2">AUDIO FEATURE VIEW</text></g>
+</svg>
